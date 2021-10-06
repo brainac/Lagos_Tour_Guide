@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="status_bar_dark_color">#455A64</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="status_bar_light_color">#607D8B</color>
+
 </resources>
