@@ -21,6 +21,7 @@
         typesetting industry.
     </string>
 
+    <!-- List of Names for Art Fragment -->
     <string name="art_house_1">Vivid Exclusive Art Gallery</string>
     <string name="art_house_2">Iwalewa Art Gallery</string>
     <string name="art_house_3">Lvi Art Gallery And Cultural Nexus</string>
@@ -32,6 +33,7 @@
     <string name="art_house_9">Ovuomaroro Studio and Gallery</string>
     <string name="art_house_10">Jaekel House</string>
 
+    <!-- List of Names for Beach Fragment -->
     <string name="lagos_beach_1">Elegushi Private Beach Resort</string>
     <string name="lagos_beach_2">Moist Beach Club</string>
     <string name="lagos_beach_3">Atican Beach Resort</string>
@@ -42,6 +44,8 @@
     <string name="lagos_beach_8">Coconut Beach Beach</string>
     <string name="lagos_beach_9">Kamp Ikare Beach Resort</string>
     <string name="lagos_beach_10">Lekki Beach Resort</string>
+
+    <!-- List of Names for Hotel Fragment -->
     <string name="lagos_hotel_1"><![CDATA[Eko Hotels & Suites]]></string>
     <string name="lagos_hotel_2">Lagos Continental Hotel</string>
     <string name="lagos_hotel_3">The Federal Palace Hotel</string>
@@ -52,6 +56,8 @@
     <string name="lagos_hotel_8">Victoria Crown Plaza Hotel</string>
     <string name="lagos_hotel_9">The Yacht Hotel</string>
     <string name="lagos_hotel_10">The White Orchid Hotel</string>
+
+    <!-- List of Names for Mall Fragment -->
     <string name="lagos_mall_1">City Mall Lagos</string>
     <string name="lagos_mall_2">The Lennox Mall</string>
     <string name="lagos_mall_3">Domino E-centre Mall</string>
