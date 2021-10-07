@@ -20,7 +20,6 @@ public class MallsFragment extends Fragment {
 
         // Create a list of Mall Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-
         attractions.add(new Attraction("City Mall Lagos", R.drawable.mall1));
         attractions.add(new Attraction("The Lennox Mall", R.drawable.mall2));
         attractions.add(new Attraction("Domino E-centre Mall", R.drawable.mall3));
@@ -31,7 +30,6 @@ public class MallsFragment extends Fragment {
         attractions.add(new Attraction("Maryland Mall", R.drawable.mall8));
         attractions.add(new Attraction("Novare Mall", R.drawable.mall9));
         attractions.add(new Attraction("Funderland Mall", R.drawable.mall10));
-
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 

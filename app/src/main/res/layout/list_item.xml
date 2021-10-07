@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    style="@style/MatchParent"
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
         android:id="@+id/business_image_container"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingStart="32dp"
-        android:paddingEnd="32dp"
+        style="@style/WrapContent"
+        android:paddingStart="@dimen/large_spacing"
+        android:paddingEnd="@dimen/large_spacing"
         android:paddingBottom="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,79 +17,71 @@
 
         <ImageView
             android:id="@+id/location_imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/WrapContent"
             android:adjustViewBounds="true"
             app:srcCompat="@drawable/hotel_1" />
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/Name_textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:id="@+id/business_name_textView"
+        style="@style/WrapContent"
+        android:layout_marginStart="@dimen/large_spacing"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/business_image_container"
         tools:text="Place"/>
 
     <ImageView
-        android:id="@+id/Map_imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/map_imageView"
+        style="@style/WrapContent"
         android:layout_marginEnd="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/business_image_container"
         app:srcCompat="@drawable/ic_baseline_location_on_24" />
 
     <TextView
-        android:id="@+id/Rating_score_textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:text="4.5"
-        android:textSize="12sp"
+        android:id="@+id/rating_score_textView"
+        style="@style/WrapContent"
+        android:layout_marginStart="@dimen/large_spacing"
+        android:text="@string/rating_score"
+        android:textSize="@dimen/text_small"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rating_imageView" />
 
     <RatingBar
         android:id="@+id/rating_imageView"
-        style="@style/Widget.AppCompat.RatingBar.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/RatingBarSmall"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:isIndicator="true"
         android:numStars="5"
         android:rating="4.5"
-        app:layout_constraintStart_toEndOf="@+id/Rating_score_textView"
-        app:layout_constraintTop_toBottomOf="@id/Name_textView" />
+        app:layout_constraintStart_toEndOf="@+id/rating_score_textView"
+        app:layout_constraintTop_toBottomOf="@id/business_name_textView" />
 
     <TextView
         android:id="@+id/rating_count_textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/WrapContent"
         android:layout_marginStart="4dp"
-        android:text="(100)"
-        android:textSize="12sp"
+        android:text="@string/rating_count"
+        android:textSize="@dimen/text_small"
         app:layout_constraintStart_toEndOf="@id/rating_imageView"
         app:layout_constraintTop_toTopOf="@+id/rating_imageView" />
 
     <TextView
         android:id="@+id/map_textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:text="Maps"
-        android:textSize="12sp"
+        style="@style/WrapContent"
+        android:layout_marginEnd="@dimen/large_spacing"
+        android:text="@string/maps"
+        android:textSize="@dimen/text_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rating_imageView" />
 
     <LinearLayout
         android:id="@+id/extra_spacing_container"
         android:layout_width="match_parent"
-        android:layout_height="32dp"
+        android:layout_height="@dimen/large_spacing"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rating_imageView">

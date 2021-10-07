@@ -17,7 +17,6 @@ public class HotelsFragment extends Fragment {
 
         // Create a list of Hotel Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-
         attractions.add(new Attraction("Eko Hotels & Suites", R.drawable.hotel_1));
         attractions.add(new Attraction("Lagos Continental Hotel", R.drawable.hotel_2));
         attractions.add(new Attraction("The Federal Palace Hotel", R.drawable.hotel_3));

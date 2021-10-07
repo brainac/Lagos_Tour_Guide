@@ -20,7 +20,6 @@ public class BeachesFragment extends Fragment {
 
         // Create a list of Beach Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-
         attractions.add(new Attraction("Elegushi Private Beach Resort", R.drawable.beach1));
         attractions.add(new Attraction("Moist Beach Club", R.drawable.beach2));
         attractions.add(new Attraction("Atican Beach Resort", R.drawable.beach3));
@@ -31,7 +30,6 @@ public class BeachesFragment extends Fragment {
         attractions.add(new Attraction("Coconut Beach Beach", R.drawable.beach8));
         attractions.add(new Attraction("Kamp Ikare Beach Resort", R.drawable.beach9));
         attractions.add(new Attraction("Lekki Beach Resort", R.drawable.beach10));
-
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 

@@ -6,8 +6,14 @@
     <string name="attraction_malls">Malls</string>
 
     <!-- Category name for museums -->
-    <string name="attraction_museums">Museums</string>
+    <string name="attraction_museums">Arts</string>
 
     <!-- Category name for beaches -->
     <string name="attraction_beaches">Beaches</string>
+
+    <string name="rating_count">(100)</string>
+
+    <string name="rating_score">4.5</string>
+
+    <string name="maps">Maps</string>
 </resources>

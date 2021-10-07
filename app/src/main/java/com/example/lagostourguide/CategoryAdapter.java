@@ -5,12 +5,10 @@ import android.content.Context;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.fragment.app.FragmentStatePagerAdapter;
-import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    /** Context of the app */
+    // Context of the app
     private final Context mContext;
 
     /**
@@ -25,9 +23,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
-    /**
-     * Return the {@link Fragment} that should be displayed for the given page number.
-     */
+    // Return the {@link Fragment} that should be displayed for the given page number.
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -35,15 +31,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 1) {
             return new MallsFragment();
         } else if (position == 2) {
-            return new MuseumsFragment();
+            return new ArtsFragment();
         } else {
             return new BeachesFragment();
         }
     }
 
-    /**
-     * Return the total number of pages.
-     */
+    // Return the total number of pages.
     @Override
     public int getCount() {
         return 4;

@@ -27,7 +27,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         Attraction currentAttraction = getItem(position);
 
-        TextView locationTextView = listItemView.findViewById(R.id.Name_textView);
+        TextView locationTextView = listItemView.findViewById(R.id.business_name_textView);
 
         locationTextView.setText(currentAttraction.getMyTourLocationTitle());
 

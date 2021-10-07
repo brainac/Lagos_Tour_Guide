@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class MuseumsFragment extends Fragment {
+public class ArtsFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -20,7 +20,6 @@ public class MuseumsFragment extends Fragment {
 
         // Create a list of Museums Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-
         attractions.add(new Attraction("Vivid Exclusive Art Gallery", R.drawable.museum1));
         attractions.add(new Attraction("Iwalewa Art Gallery", R.drawable.museum2));
         attractions.add(new Attraction("Lvi Art Gallery And Cultural Nexus", R.drawable.museum3));
