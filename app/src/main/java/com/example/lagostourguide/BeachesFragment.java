@@ -7,58 +7,38 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link BeachesFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+
 public class BeachesFragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public BeachesFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment BeachesFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static BeachesFragment newInstance(String param1, String param2) {
-        BeachesFragment fragment = new BeachesFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_beaches, container, false);
+        View rootView = inflater.inflate(R.layout.list, container, false);
+
+        // Create a list of Beach Attractions
+        final ArrayList<Attraction> attractions = new ArrayList<>();
+
+        attractions.add(new Attraction("Elegushi Private Beach Resort", R.drawable.beach1));
+        attractions.add(new Attraction("Moist Beach Club", R.drawable.beach2));
+        attractions.add(new Attraction("Atican Beach Resort", R.drawable.beach3));
+        attractions.add(new Attraction("Tarkwa-Bay Beach", R.drawable.beach4));
+        attractions.add(new Attraction("Oniru Private Beach", R.drawable.beach5));
+        attractions.add(new Attraction("Redline beach", R.drawable.beach6));
+        attractions.add(new Attraction("Landmark Beach", R.drawable.beach7));
+        attractions.add(new Attraction("Coconut Beach Beach", R.drawable.beach8));
+        attractions.add(new Attraction("Kamp Ikare Beach Resort", R.drawable.beach9));
+        attractions.add(new Attraction("Lekki Beach Resort", R.drawable.beach10));
+
+
+        AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
+
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setAdapter(adapter);
+
+        return rootView;
     }
 }
