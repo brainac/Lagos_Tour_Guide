@@ -16,4 +16,8 @@
     <string name="rating_score">4.5</string>
 
     <string name="maps">Maps</string>
+
+    <string name="business_description">\t \t \t Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.
+    </string>
 </resources>
