@@ -6,7 +6,7 @@ public class Attraction {
     private final String myTourLocation;
 
     // Image resource ID for the Locations which can be visited
-    private int mImageResourceId;
+    private final int mImageResourceId;
 
     public Attraction(String tourLocation, int imageResourceId) {
         myTourLocation = tourLocation;
