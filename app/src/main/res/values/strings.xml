@@ -20,4 +20,46 @@
     <string name="business_description">\t \t \t Lorem Ipsum is simply dummy text of the printing and
         typesetting industry.
     </string>
+
+    <string name="art_house_1">Vivid Exclusive Art Gallery</string>
+    <string name="art_house_2">Iwalewa Art Gallery</string>
+    <string name="art_house_3">Lvi Art Gallery And Cultural Nexus</string>
+    <string name="art_house_4">Kalakuta Republic Museum</string>
+    <string name="art_house_5">Red Door Art Gallery</string>
+    <string name="art_house_6">The National Museum</string>
+    <string name="art_house_7">Black Heritage Museum</string>
+    <string name="art_house_8">Mindscape Childrens Museum</string>
+    <string name="art_house_9">Ovuomaroro Studio and Gallery</string>
+    <string name="art_house_10">Jaekel House</string>
+
+    <string name="lagos_beach_1">Elegushi Private Beach Resort</string>
+    <string name="lagos_beach_2">Moist Beach Club</string>
+    <string name="lagos_beach_3">Atican Beach Resort</string>
+    <string name="lagos_beach_4">Tarkwa-Bay Beach</string>
+    <string name="lagos_beach_5">Oniru Private Beach</string>
+    <string name="lagos_beach_6">Redline beach</string>
+    <string name="lagos_beach_7">Landmark Beach</string>
+    <string name="lagos_beach_8">Coconut Beach Beach</string>
+    <string name="lagos_beach_9">Kamp Ikare Beach Resort</string>
+    <string name="lagos_beach_10">Lekki Beach Resort</string>
+    <string name="lagos_hotel_1"><![CDATA[Eko Hotels & Suites]]></string>
+    <string name="lagos_hotel_2">Lagos Continental Hotel</string>
+    <string name="lagos_hotel_3">The Federal Palace Hotel</string>
+    <string name="lagos_hotel_4">Lilygate Hotel</string>
+    <string name="lagos_hotel_5">Four Points by Sheraton Lagos</string>
+    <string name="lagos_hotel_6">Protea Hotel Ikeja Select</string>
+    <string name="lagos_hotel_7">Welcome Centre Hotels</string>
+    <string name="lagos_hotel_8">Victoria Crown Plaza Hotel</string>
+    <string name="lagos_hotel_9">The Yacht Hotel</string>
+    <string name="lagos_hotel_10">The White Orchid Hotel</string>
+    <string name="lagos_mall_1">City Mall Lagos</string>
+    <string name="lagos_mall_2">The Lennox Mall</string>
+    <string name="lagos_mall_3">Domino E-centre Mall</string>
+    <string name="lagos_mall_4">Apapa Mall</string>
+    <string name="lagos_mall_5">Circle Mall</string>
+    <string name="lagos_mall_6">Redline mall</string>
+    <string name="lagos_mall_7">Festival Mall</string>
+    <string name="lagos_mall_8">Maryland Mall</string>
+    <string name="lagos_mall_9">Novare Mall</string>
+    <string name="lagos_mall_10">Funderland Mall</string>
 </resources>

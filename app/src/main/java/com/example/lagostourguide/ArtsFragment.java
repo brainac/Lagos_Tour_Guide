@@ -19,16 +19,16 @@ public class ArtsFragment extends Fragment {
 
         // Create a list of Museums Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Vivid Exclusive Art Gallery", R.drawable.museum1));
-        attractions.add(new Attraction("Iwalewa Art Gallery", R.drawable.museum2));
-        attractions.add(new Attraction("Lvi Art Gallery And Cultural Nexus", R.drawable.museum3));
-        attractions.add(new Attraction("Kalakuta Republic Museum", R.drawable.museum4));
-        attractions.add(new Attraction("Red Door Art Gallery", R.drawable.museum5));
-        attractions.add(new Attraction("The National Museum", R.drawable.museum6));
-        attractions.add(new Attraction("Black Heritage Museum", R.drawable.museum7));
-        attractions.add(new Attraction("Mindscape Childrens Museum", R.drawable.museum8));
-        attractions.add(new Attraction("Ovuomaroro Studio and Gallery", R.drawable.museum9));
-        attractions.add(new Attraction("Jaekel House", R.drawable.museum10));
+        attractions.add(new Attraction(getString(R.string.art_house_1), R.drawable.museum1));
+        attractions.add(new Attraction(getString(R.string.art_house_2), R.drawable.museum2));
+        attractions.add(new Attraction(getString(R.string.art_house_3), R.drawable.museum3));
+        attractions.add(new Attraction(getString(R.string.art_house_4), R.drawable.museum4));
+        attractions.add(new Attraction(getString(R.string.art_house_5), R.drawable.museum5));
+        attractions.add(new Attraction(getString(R.string.art_house_6), R.drawable.museum6));
+        attractions.add(new Attraction(getString(R.string.art_house_7), R.drawable.museum7));
+        attractions.add(new Attraction(getString(R.string.art_house_8), R.drawable.museum8));
+        attractions.add(new Attraction(getString(R.string.art_house_9), R.drawable.museum9));
+        attractions.add(new Attraction(getString(R.string.art_house_10), R.drawable.museum10));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 

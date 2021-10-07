@@ -19,16 +19,16 @@ public class BeachesFragment extends Fragment {
 
         // Create a list of Beach Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Elegushi Private Beach Resort", R.drawable.beach1));
-        attractions.add(new Attraction("Moist Beach Club", R.drawable.beach2));
-        attractions.add(new Attraction("Atican Beach Resort", R.drawable.beach3));
-        attractions.add(new Attraction("Tarkwa-Bay Beach", R.drawable.beach4));
-        attractions.add(new Attraction("Oniru Private Beach", R.drawable.beach5));
-        attractions.add(new Attraction("Redline beach", R.drawable.beach6));
-        attractions.add(new Attraction("Landmark Beach", R.drawable.beach7));
-        attractions.add(new Attraction("Coconut Beach Beach", R.drawable.beach8));
-        attractions.add(new Attraction("Kamp Ikare Beach Resort", R.drawable.beach9));
-        attractions.add(new Attraction("Lekki Beach Resort", R.drawable.beach10));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_1), R.drawable.beach1));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_2), R.drawable.beach2));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_3), R.drawable.beach3));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_4), R.drawable.beach4));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_5), R.drawable.beach5));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_6), R.drawable.beach6));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_7), R.drawable.beach7));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_8), R.drawable.beach8));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_9), R.drawable.beach9));
+        attractions.add(new Attraction(getString(R.string.lagos_beach_10), R.drawable.beach10));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 

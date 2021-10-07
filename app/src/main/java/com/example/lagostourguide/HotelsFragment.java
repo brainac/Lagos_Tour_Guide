@@ -19,16 +19,16 @@ public class HotelsFragment extends Fragment {
 
         // Create a list of Hotel Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Eko Hotels & Suites", R.drawable.hotel_1));
-        attractions.add(new Attraction("Lagos Continental Hotel", R.drawable.hotel_2));
-        attractions.add(new Attraction("The Federal Palace Hotel", R.drawable.hotel_3));
-        attractions.add(new Attraction("Lilygate Hotel", R.drawable.hotel_4));
-        attractions.add(new Attraction("Four Points by Sheraton Lagos", R.drawable.hotel_5));
-        attractions.add(new Attraction("Protea Hotel Ikeja Select", R.drawable.hotel_6));
-        attractions.add(new Attraction("Welcome Centre Hotels", R.drawable.hotel_7));
-        attractions.add(new Attraction("Victoria Crown Plaza Hotel", R.drawable.hotel_8));
-        attractions.add(new Attraction("The Yacht Hotel", R.drawable.hotel_9));
-        attractions.add(new Attraction("The White Orchid Hotel", R.drawable.hotel_10));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_1), R.drawable.hotel_1));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_2), R.drawable.hotel_2));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_3), R.drawable.hotel_3));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_4), R.drawable.hotel_4));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_5), R.drawable.hotel_5));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_6), R.drawable.hotel_6));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_7), R.drawable.hotel_7));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_8), R.drawable.hotel_8));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_9), R.drawable.hotel_9));
+        attractions.add(new Attraction(getString(R.string.lagos_hotel_10), R.drawable.hotel_10));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 
